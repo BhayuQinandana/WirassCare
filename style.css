@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8929cd;
+}
+nav {
+    background-color: #3c0043;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    max-width: 50px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 40px;   
+}
+
+.hero {
+    TEXT-ALIGN: CENTER;
+    PADDING: 100PX 20PX;
+}
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.hero p {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight:normal;
+    font-family:cursive;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .Icon {
+        margin-right: 10px;
+        width: 150px;
+        height: auto;
+        max-width: 150px;
+        display= block;
+        margin: 0 auto;
+    }
+}
+.hero button {
+    background-color: #3c0043;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 13px;
+    margin: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card {
+    width: 320px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid #180a35;
+    margin: 20px;
+    background-color: #c05cf1;
+    text-align: center;
+    max-width: 250px;
+}
+.card img {
+    width: 150PX;
+    height: auto;
+    margin-bottom: 20px;
+} 
+
+.activities {
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.activities h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.activities p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #3c0043;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.footer a {
+    color: #9d41ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
